@@ -1,5 +1,8 @@
 {
-    "name": "MemasUI",
+    "name": "@Maksemus/MemasUI",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/Maksemus"
+    },
     "version": "0.0.1",
     "description": "Memas React component library",
     "scripts": {
