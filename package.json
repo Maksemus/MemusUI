@@ -1,9 +1,9 @@
 {
-    "name": "@maksemus/memasui",
+    "name": "@maksemus/memas-ui",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/maksemus"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Memas React component library",
     "scripts": {
         "rollup": "rollup -c"
@@ -15,11 +15,14 @@
         "@rollup/plugin-node-resolve": "^13.3.0",
         "@rollup/plugin-typescript": "^8.3.2",
         "@types/react": "^18.0.11",
+        "node-sass": "^7.0.1",
         "react": "^18.1.0",
         "rollup": "^2.75.5",
         "rollup-plugin-dts": "^4.2.2",
+        "rollup-plugin-postcss": "^4.0.2",
         "tslib": "^2.4.0",
-        "typescript": "^4.7.3"
+        "typescript": "^4.7.3",
+        "typescript-plugin-css-modules": "^3.4.0"
     },
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
